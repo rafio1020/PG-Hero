@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <style>
+        body{
+            border: 1px solid aqua;
+            max-width: 1140px;
+            margin: 0px auto;
+        }
+        .image-container{
+            display: flex;
+        }
+        .image-container div{
+            width: 50%;
+        }
+        .image-container img{
+            width: 100%;
+        }
+        @media screen and (max-width: 576px) {
+            .image-container{
+                flex-direction: column;
+            }
+            .image-container div{
+                width: 100%
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <ol>
+            <li>Viewport Meta Tag</li>
+            <li>CSS Relative Unit</li>
+            <li>Body Max width Horizontal Center Align</li>
+            <li>image fluid</li>
+            <li>two column flex and use media query with flex direction column</li>
+            <li>multi column:grid</li>
+            <li>menu responsive</li>
+        </ol>
+    </header>
+    <main>
+        <div class="image-container">
+            <div class="image"><img src="/images/download.jpg" alt=""></div>
+            <div class="image"><img src="images/pizza.webp" alt=""></div>
+        </div>
+
+    </main>
+</body>
+</html>

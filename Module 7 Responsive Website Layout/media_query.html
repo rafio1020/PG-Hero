@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 10px;
+        }
+        .food{
+            border: 1px solid pink;
+            border-radius: 5px;
+            padding: 10px;
+        }
+        .food img{
+            width: 100%;
+        }
+
+        /* Small Device */
+        @media screen and (max-width: 576px){
+            .container{
+                grid-template-columns: repeat(1,1fr);
+            }
+        }
+
+        /* Medium Device */
+        @media screen and (min-width: 576px) and (max-width: 992px) {
+            .container{
+                grid-template-columns: repeat(2,1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+        <div class="container">
+            <div class="food">
+                <img src="images/download.jpg" alt="">
+                <h3>Burger 11</h3>
+                <p>Price: $00</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, sint aliquid? Cumque expedita ab suscipit neque incidunt, nemo porro consequatur.</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="food">
+                <img src="images/download.jpg" alt="">
+                <h3>Burger 21</h3>
+                <p>Price: $00</p>
+                <p>A reprehenderit eum assumenda asperiores ducimus adipisci sit, deserunt dolores maxime soluta id laborum laboriosam beatae debitis exercitationem eligendi impedit.</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="food">
+                <img src="images/download.jpg" alt="">
+                <h3>Burger 31</h3>
+                <p>Price: $00</p>
+                <p>Consectetur ea molestiae eligendi autem, vitae doloremque quae quasi illo soluta quod. Expedita tempore voluptatibus facere alias aperiam fuga dolores!</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="food">
+                <img src="images/download.jpg" alt="">
+                <h3>Burger 41</h3>
+                <p>Price: $00</p>
+                <p>Ipsum, quod vero doloribus voluptas sint officia culpa unde repellat commodi provident incidunt similique adipisci eaque illum libero labore atque?</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="food">
+                <img src="images/download.jpg" alt="">
+                <h3>Burger 51</h3>
+                <p>Price: $00</p>
+                <p>Dolores ad placeat ut voluptatum quae ipsum corrupti nemo similique minima dolorem! Eius corrupti dolorem ullam illo excepturi modi debitis.</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="food">
+                <img src="images/download.jpg" alt="">
+                <h3>Burger 61</h3>
+                <p>Price: $00</p>
+                <p>Dolorum quae, impedit necessitatibus, laborum eveniet quidem veniam qui assumenda minima optio voluptates deleniti corporis unde fugit a eligendi. Quam!</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="food">
+                <img src="images/download.jpg" alt="">
+                <h3>Burger 71</h3>
+                <p>Price: $00</p>
+                <p>Aspernatur et expedita fugiat porro quibusdam odio labore, doloribus sit at nobis? Accusantium, ipsam. Deleniti fugit deserunt quas ducimus quia!</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="food">
+                <img src="images/download.jpg" alt="">
+                <h3>Burger 81</h3>
+                <p>Price: $00</p>
+                <p>Autem eius culpa et soluta ipsum velit corrupti placeat earum nisi quam, excepturi sequi temporibus sunt repudiandae sint labore. Laborum.</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="food">
+                <img src="images/download.jpg" alt="">
+                <h3>Burger 91</h3>
+                <p>Price: $00</p>
+                <p>Odit voluptates, pariatur incidunt dicta, commodi hic soluta ad repellat eligendi tenetur veniam porro sed. Culpa consequuntur cum aspernatur exercitationem?</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="food">
+                <img src="images/download.jpg" alt="">
+                <h3>Burger 101</h3>
+                <p>Price: $00</p>
+                <p>Corporis possimus, vel consectetur dicta quo provident? Non neque, sunt eum, debitis voluptas quidem explicabo quo ex magni, alias reiciendis?</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="food">
+                <img src="images/download.jpg" alt="">
+                <h3>Burger 111</h3>
+                <p>Price: $00</p>
+                <p>Tenetur sapiente facilis tempore sit error libero a reiciendis asperiores! Possimus reprehenderit sunt aliquam laboriosam sint fugiat voluptate alias quos.</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="food">
+                <img src="images/download.jpg" alt="">
+                <h3>Burger 121</h3>
+                <p>Price: $00</p>
+                <p>Ipsa molestiae distinctio possimus est illo, sit, id, perferendis officia impedit aliquam quis tempore. Porro ea nihil exercitationem vitae cum?</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+</body>
+</html>
